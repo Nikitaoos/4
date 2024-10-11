@@ -1,0 +1,38 @@
+header{
+    background-color: rgba(176, 232, 238, 0.877);
+}
+
+footer{
+    background-color:rgba(176, 232, 238, 0.877);
+  }
+div.bdy{
+    background-color:rgba(176, 232, 238, 0.877);
+
+}
+  #name{
+    text-align: center;
+  }
+  #name1{
+    text-align: center;
+  }
+  #name2{
+    text-align: center;
+  } 
+  #name3{
+    text-align: center;
+  }
+  #table{
+    order: 1;
+  }
+  #giper{
+    order: 2;
+  }
+  #form{
+    order: 3;
+  }
+  @media (min-width: 960px) {
+  nav{flex-direction:row}
+  #table{order: 2;}
+  #giper{order: 1;}
+  #form{order: 3;}
+  }
